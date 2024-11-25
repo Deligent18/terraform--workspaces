@@ -3,6 +3,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "tfc-workspace-bucket"
+  bucket = "tfc-workspace-bucket-1244245-kuitvf"
   force_destroy = true 
 }
